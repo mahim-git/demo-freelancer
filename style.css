@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #2D2E32;
+}
+ul{
+    list-style:none;
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height:12vh;
+}
+.logo{
+    color:#22EAA2;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 25px;
+
+}
+.logo span{
+    color:#22EAA2;
+    font-size:35px;
+    margin-right:20px;
+}
+
+.menu{
+}
+.menu ul{
+    display:flex;
+    list-style:none;
+    align-items: center;
+}
+.menu ul li{}
+.menu ul li a{
+    display: block;
+    margin:0rem 3rem;
+    padding:10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color:#22EAA2;
+    border:1px solid transparent;
+    border-radius: 5px;
+    transition: border 0.4s ease-out;
+}
+.menu ul li a:hover{
+    border:1px solid #22EAA2;
+}
+
+.search{
+    position: relative;
+}
+.search input{
+    border:none;
+    background: transparent;
+    border:1px solid #666;
+    padding:0.25rem 1rem;
+    border-radius:3px;
+    width:150px;
+    font-family:inherit;
+    padding-left: 2rem;
+    color:#666;
+}
+.search button{
+    position:absolute;
+    top:50%;
+    left:10%;
+    background: transparent;
+    color: #666;
+    border:none;
+    transform:translate(-10%,-50%);
+    cursor: pointer;
+}
+
+.container{
+    width:1170px;
+    margin: auto;
+    padding:1.5rem 0;
+}
+.fav-container{
+    width:100%;
+}
+.fav-ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.fav-ul li img{
+    background: #25262A;
+    padding:1rem;
+    height:100px;
+    width:100px;
+    border-radius:5px;
+}
+.fav-ul li span{
+    display:block;
+    color:#eee;
+}
+
+.card-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.card{
+    width:250px;
+    margin:0.5rem;
+    background: #25262A;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid #191a1b;
+}
+.card-head{}
+.card-head img{
+    width: 100%;
+}
+.card-tail{
+    padding:1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.card-tail h4{
+    color:#eee;
+    font-weight: 500;
+    font-size:13px;
+    margin-bottom:10px;
+}
+.card-tail p{
+    color:rgb(117, 116, 116);
+    font-size:12px;
+    margin-bottom:10px;
+
+}
+.buy-btn{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+.card-tail  button{
+    color:#eee;
+    background: #22EAA2;
+    border:none;
+    padding:0.5rem 1rem;
+    width:50%;
+    font-family: inherit;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
